@@ -142,8 +142,19 @@ section{
     font-size: 1rem;
     font-weight: 500;
 }
-
 /*Aside*/
 aside{
     flex:1;
+}
+/*Solicitudes*/
+#solicitudes .titular{
+    display: flex;
+}
+.titular button{
+    background-color: #999999;
+    height: 1.5rem;
+    width: 1.5rem;
+    border: none;
+    border-radius: 50%;
+    margin-right: 2rem;
 }
