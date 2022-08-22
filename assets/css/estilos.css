@@ -50,3 +50,68 @@ header{
     padding: 0.4rem;
     border-radius: 0.4rem;
 }
+/*Main*/
+main{
+    margin-block: 2rem;
+    padding-inline: 10%;
+    width: auto;
+    display: flex;
+}
+/*Secciones*/
+section{
+    flex: 2;
+}
+/*Tarjeta Usario*/
+#tarjeta-usario{
+    border: solid 2px lightgrey;
+    border-radius: 0.5rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+}
+.celeste{
+    height: 2.5rem;
+    background-color: lightseagreen;
+    padding: 2rem;
+    border-radius: 0.5rem 0.5rem 0rem 0rem;
+}
+.celeste img{
+    height: 8rem;
+}
+.gris{
+    background-color: whitesmoke;
+    padding: 4rem 2rem 1rem 2rem;
+    border-radius: 0rem 0rem 0.5rem 0.5rem;
+}
+.gris h2{
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+.ubicacion, .configuracion{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+.ubicacion img, .configuracion img{
+    height: 1.3rem;
+    margin-right: 0.5rem;
+}
+.ubicacion p{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.informacion p{
+    font-size: 1rem;
+    font-weight: 300;
+    margin-bottom: 0.5rem;
+}
+.configuracion a{
+    color: #2B78E4;
+    font-weight: 500;
+}
+.configuracion a:hover{
+    font-weight: 600;
+}
+/*Aside*/
+aside{
+    flex:1;
+}
