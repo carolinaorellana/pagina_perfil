@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/*Barra de navegación*/
+header{
+    background-color: black;
+    color: white;
+    padding-inline: 10%;
+    padding-block: 1%;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+}
+.logoPerfil{
+    flex:1
+}
+.logoPerfil h1{
+    font-size: 2.5rem;
+}
+.contenidoNav{
+    flex:5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contenidoNav ul{
+    display: flex;
+}
+.contenidoNav ul li{
+    list-style-type: none;
+    margin-right: 2rem;
+}
+.contenidoNav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+.contenidoNav ul li a.activo{
+    font-weight: 700;
+}
+.contenidoNav button{
+    background-color: lightseagreen;
+    color: white;
+    font-size: 1.4rem;
+    padding: 0.4rem;
+    border-radius: 0.4rem;
+}

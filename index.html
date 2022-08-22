@@ -1,120 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Carolina Orellana">
-    <!--link css-->
-    <link rel="stylesheet" href="assets/css/estilos.css">
-    <title>Página de perfil </title>
-</head>
-<body>
-    <header>
-        <div class="navbar">
-            <div class="logoNav">
-                <h1>Perfil</h1>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Carolina Orellana">
+        <!--Link Google Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+        <!--link Css-->
+        <link rel="stylesheet" href="assets/css/estilos.css">
+        <title>Página de perfil </title>
+    </head>
+    <body>
+        <header>
+            <!--Header dará el color de fondo y padding-->
+            <div id="navbar">
+                <!--contenedor flex-->
+                <div class="logoPerfil">
+                    <h1>Perfil</h1>
+                </div>
+                <div class="contenidoNav">
+                    <ul>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#" class="activo">Mi Perfil</a></li>
+                        <li><a href="#">Encontrar Conexiones</a></li>
+                    </ul>
+                    <button class="btn">Cerrar Sesión</button>
+                </div>
             </div>
-            <div class="elementosNav">
-                <ul class="navLinks">
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#" class="activo">Mi Perfil</a></li>
-                    <li><a href="#">Encontrar Conexiones</a></li>
-                </ul>
-                <button class="btn">Cerrar Sesión</button>
-            </div>
-        </div>
-    </header>
+        </header>
 
-    <main>
-        <section>
-            <div class="tarjeta-usario">
-                <div class="celeste">
-                </div>
-                <div class="gris">
-                    <div class="position">
-                        <div class="perfil">
-                            <img src="assets/iconos/user-circle.png" alt="Icono de usuario">
-                            <h2>Jane Doe</h2>
-                        </div>
-                        <div class="ubicacion">
-                            <img src="assets/iconos/map-marker.png" alt="Icono de marcador de mapa">
-                            <p>Seattle</p>
-                        </div class>
-                        <div class="informacion">
-                            <p>Developer | Engineer | Problem Solver </p>
-                            <p> Master of shadows and the Internet!</p>
-                        </div>
-                        <div class="configuracion">
-                            <img src="assets/iconos/gear.png" alt="Ruedita de configuración">
-                            <a href="#">edit profile</a>
+        <main>
+            <section>
+                <div class="tarjeta-usario">
+                    <div class="celeste">
+                    </div>
+                    <div class="gris">
+                        <div class="position">
+                            <div class="perfil">
+                                <img src="assets/iconos/user-circle.png" alt="Icono de usuario">
+                                <h2>Jane Doe</h2>
+                            </div>
+                            <div class="ubicacion">
+                                <img src="assets/iconos/map-marker.png" alt="Icono de marcador de mapa">
+                                <p>Seattle</p>
+                            </div class>
+                            <div class="informacion">
+                                <p>Developer | Engineer | Problem Solver </p>
+                                <p> Master of shadows and the Internet!</p>
+                            </div>
+                            <div class="configuracion">
+                                <img src="assets/iconos/gear.png" alt="Ruedita de configuración">
+                                <a href="#">edit profile</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="educacion">
-                <div class="titular">
-                    <h3>Educacion</h3>
+                <div class="educacion">
+                    <div class="titular">
+                        <h3>Educacion</h3>
+                    </div>
+                    <div class="infoEducacion">
+                        <h4>Coding Dojo-Full Stack Bootcamp</h4>
+                        <h5>Dic 2019- Mar 2020</h5>
+                        <p>Triple black belt inPython, MERN and C#</p>
+                    </div>
                 </div>
-                <div class="infoEducacion">
-                    <h4>Coding Dojo-Full Stack Bootcamp</h4>
-                    <h5>Dic 2019- Mar 2020</h5>
-                    <p>Triple black belt inPython, MERN and C#</p>
+            </section>
+            <aside>
+                <div class="solicitudes">
+                    <div class="titular">
+                        <h3>Educacion</h3>
+                    </div>
+                    <div class="infoAside">
+                        <div class="solicitud">
+                            <div class="persona">
+                                <img src="assets/img/todd-s.jpg" alt="Perfil Todd">
+                                <h4>Todd E</h4>
+                            </div>
+                            <div class="agregar">
+                                <img src="assets/iconos/accept-circle.png" alt="Icono Agregar">
+                                <img src="assets/iconos/close-circle.png" alt="Icono Rechazar">
+                            </div>
+                        </div>
+                        <div class="solicitud">
+                            <div class="persona">
+                                <img src="assets/img/phil-s.jpg" alt="Perfil Todd">
+                                <h4>Phill K</h4>
+                            </div>
+                            <div class="agregar">
+                                <img src="assets/iconos/accept-circle.png" alt="Icono Agregar">
+                                <img src="assets/iconos/close-circle.png" alt="Icono Rechazar">
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </section>
-        <aside>
-            <div class="solicitudes">
-                <div class="titular">
-                    <h3>Educacion</h3>
-                </div>
-                <div class="infoAside">
-                    <div class="solicitud">
+                <div class="conecciones">
+                    <div class="titular">
+                        <h3>Educacion</h3>
+                    </div>
+                    <div class="infoAside">
                         <div class="persona">
-                            <img src="assets/img/todd-s.jpg" alt="Perfil Todd">
-                            <h4>Todd E</h4>
+                            <img src="assets/img/adrien-s.jpg" alt="Perfil Todd">
+                            <h4>Andrien D</h4>
                         </div>
-                        <div class="agregar">
-                            <img src="assets/iconos/accept-circle.png" alt="Icono Agregar">
-                            <img src="assets/iconos/close-circle.png" alt="Icono Rechazar">
-                        </div>
-                    </div>
-                    <div class="solicitud">
                         <div class="persona">
-                            <img src="assets/img/phil-s.jpg" alt="Perfil Todd">
-                            <h4>Phill K</h4>
+                            <img src="assets/img/anne-s.jpg" alt="Perfil Todd">
+                            <h4>Anne J</h4>
                         </div>
-                        <div class="agregar">
-                            <img src="assets/iconos/accept-circle.png" alt="Icono Agregar">
-                            <img src="assets/iconos/close-circle.png" alt="Icono Rechazar">
+                        <div class="persona">
+                            <img src="assets/img/alayne-s.jpg" alt="Perfil Todd">
+                            <h4>Alayne T</h4>
+                        </div>
+                        <div class="persona">
+                            <img src="assets/img/arry-s.jpg" alt="Perfil Todd">
+                            <h4>Arry Y</h4>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="conecciones">
-                <div class="titular">
-                    <h3>Educacion</h3>
-                </div>
-                <div class="infoAside">
-                    <div class="persona">
-                        <img src="assets/img/adrien-s.jpg" alt="Perfil Todd">
-                        <h4>Andrien D</h4>
-                    </div>
-                    <div class="persona">
-                        <img src="assets/img/anne-s.jpg" alt="Perfil Todd">
-                        <h4>Anne J</h4>
-                    </div>
-                    <div class="persona">
-                        <img src="assets/img/alayne-s.jpg" alt="Perfil Todd">
-                        <h4>Alayne T</h4>
-                    </div>
-                    <div class="persona">
-                        <img src="assets/img/arry-s.jpg" alt="Perfil Todd">
-                        <h4>Arry Y</h4>
-                    </div>
-                </div>
-            </div>
-        </aside>
-    </main>
-</body>
+            </aside>
+        </main>
+    </body>
 </html>
