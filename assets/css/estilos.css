@@ -4,6 +4,7 @@
 }
 body{
     font-family: 'Roboto', sans-serif;
+    color: black;
 }
 /*Barra de navegación*/
 header{
@@ -62,7 +63,7 @@ section{
     flex: 2;
 }
 /*Tarjeta Usario*/
-#tarjeta-usario{
+#tarjeta-usario, #educacion{
     border: solid 2px lightgrey;
     border-radius: 0.5rem;
     margin-right: 2rem;
@@ -111,6 +112,37 @@ section{
 .configuracion a:hover{
     font-weight: 600;
 }
+/*Seccion Educación, formato inicial en la tarjeta */
+.titular{
+    background-color:#333333;
+    height: 1.3rem;
+    padding: 1rem 2rem 1rem 2rem;
+    border-radius: 0.5rem 0.5rem 0rem 0rem;
+}
+.titular h3{
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.infoEducacion{
+    background-color: whitesmoke;
+    padding: 1rem 2rem 1rem 2rem ;
+}
+.infoEducacion h4{
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+}
+.infoEducacion h5{
+    font-size: 1rem;
+    font-weight: 400;
+    color: gray;
+    margin-bottom: 0.5rem;
+}
+.infoEducacion p{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
 /*Aside*/
 aside{
     flex:1;
