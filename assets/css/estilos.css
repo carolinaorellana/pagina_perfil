@@ -127,6 +127,7 @@ section{
 .infoEducacion{
     background-color: whitesmoke;
     padding: 1rem 2rem 1rem 2rem ;
+    border-radius: 0rem 0rem 0.5rem 0.5rem;
 }
 .infoEducacion h4{
     font-size: 1.3rem;
@@ -147,14 +148,70 @@ aside{
     flex:1;
 }
 /*Solicitudes*/
-#solicitudes .titular{
+#solicitudes, #conecciones{
+    border: solid 2px lightgrey;
+    border-radius: 0.5rem;
+    margin-bottom: 2rem;
+}
+.titular2{
+    background-color: #333333;
+    height: auto;
+    padding: 1rem 2rem 1rem 2rem;
+    border-radius: 0.5rem 0.5rem 0rem 0rem;
     display: flex;
+    align-items: center;
 }
-.titular button{
-    background-color: #999999;
-    height: 1.5rem;
-    width: 1.5rem;
-    border: none;
+.boton1 button{
+    height: 2rem;
+    width: 2rem;
     border-radius: 50%;
-    margin-right: 2rem;
+    border: none;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #333333;;
 }
+.titular2 h3{
+    color: white;
+    margin-left: 1rem;
+    text-align: center;
+}
+.infoSolicitudes{
+    background-color: whitesmoke;
+    padding: 1rem 2rem 1rem 2rem ;
+    border-radius: 0rem 0rem 0.5rem 0.5rem;
+}
+.persona1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.infoPersona{
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    margin-block: 1rem;
+}
+.infoPersona img{
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+    margin-right: 1rem;
+}
+.iconoSolicitudes img{
+    width: 2rem;
+    height: 2rem;
+    margin-left: 1rem;
+}
+/*Conecciones*/
+/* se usaron las mismas propiedades de la tarjeta Solicitudes, sólo cambio el boton*/
+.boton2 button{
+    height: 2rem;
+    width: 3rem;
+    border-radius: 50%;
+    border: none;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #333333;;
+}
+
